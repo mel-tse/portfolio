@@ -382,4 +382,13 @@ body {
   .hero-img {
     padding-top: 2rem;
   }
+
+  .about-hero-img img {
+    width: 100%;
+    float: initial;
+    margin-right: initial;
+    margin-bottom: initial;
+    height: 100%;
+    object-fit: cover;
+  }
 }
