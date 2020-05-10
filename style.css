@@ -380,4 +380,8 @@ body {
   .cursor {
     display: none;
   }
+
+  .hero-img {
+    padding-top: 2rem;
+  }
 }
