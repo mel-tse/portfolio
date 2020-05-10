@@ -383,6 +383,10 @@ body {
     padding-top: 2rem;
   }
 
+  .hero-desc {
+    padding-bottom: 2rem;
+  }
+
   .about-hero-img img {
     width: 100%;
     float: initial;
