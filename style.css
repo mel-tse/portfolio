@@ -159,21 +159,6 @@ body {
   -webkit-clip-path: circle(50px at 100% -10%);
 }
 
-.about-popout {
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  display: flex;
-  padding-top: 5rem;
-  justify-content: center;
-  align-content: center;
-  background: white;
-  clip-path: circle(50px at 100% -10%);
-  -webkit-clip-path: circle(50px at 100% -10%);
-}
-
 .burger {
   cursor: pointer;
 }
@@ -390,5 +375,9 @@ body {
   .about-desc {
     padding-top: 2rem;
     padding-left: initial;
+  }
+
+  .cursor {
+    display: none;
   }
 }
