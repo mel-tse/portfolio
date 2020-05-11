@@ -59,20 +59,14 @@ body {
   position: relative;
 }
 
-.about {
-  display: flex;
+.about-desc {
+  display: initial;
+  position: relative;
+  padding-left: initial;
 }
 
-.about-desc {
+.about {
   display: flex;
-  flex-direction: column;
-  text-align: center;
-  justify-content: start;
-  flex: 1;
-  flex-basis: 25rem;
-  padding-left: 5rem;
-  position: relative;
-  color: white;
 }
 
 .hero-img {
@@ -117,7 +111,8 @@ body {
   color: #429e9d;
 }
 
-.hero-desc h2 {
+.hero-desc h2,
+.about-desc h2 {
   font-family: "abril fatface";
   font-size: 4rem;
 }
@@ -276,7 +271,8 @@ body {
 }
 
 @media screen and (min-width: 769px) and (max-width: 1400px) {
-  .hero-desc h2 {
+  .hero-desc h2,
+  .about-desc h2 {
     font-size: 3rem;
   }
   .contact {
@@ -320,7 +316,8 @@ body {
     padding: 0;
   }
 
-  .hero-desc h2 {
+  .hero-desc h2,
+  .about-desc h2 {
     font-size: 2rem;
     padding: 1rem 0rem;
   }
