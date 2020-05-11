@@ -26,9 +26,7 @@ function animateSlides() {
       slideTl.fromTo(revealText, { x: "0%" }, { x: "100%" }, "-=1");
       //slides nav down
 
-      slideTl.fromTo(nav, { y: "0%" }, { y: "0%" });
-
-      slideTl.fromTo(nav, { y: "-100%" }, { y: "0%" }, "-=0.5");
+      slideTl.fromTo(nav, { y: "-100%" }, { y: "0%" });
 
       //Create a scene
       slideScene = new ScrollMagic.Scene({
