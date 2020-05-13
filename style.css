@@ -397,3 +397,14 @@ body {
     object-fit: cover;
   }
 }
+
+/* For lazy loaded elements */
+.lazyload,
+.lazyloading {
+  opacity: 0;
+  transition: 0.2s;
+}
+
+.lazyloaded {
+  opacity: 1;
+}
