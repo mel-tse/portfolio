@@ -372,6 +372,10 @@ body {
     padding-left: initial;
   }
 
+  .about-container {
+    padding-bottom: 2rem;
+  }
+
   .cursor {
     display: none;
   }
