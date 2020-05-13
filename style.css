@@ -96,7 +96,7 @@ body {
 }
 
 .saffi-span {
-  color: #2e3c6e;
+  color: #3653bb;
 }
 
 .chiltern-span {
@@ -223,7 +223,7 @@ body {
 }
 
 .cursor.saffi-active {
-  background: #2e3c6e;
+  background: #3653bb;
   transform: scale(3);
 }
 
