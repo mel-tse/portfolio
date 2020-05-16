@@ -1,3 +1,5 @@
+import { gsap } from "gsap";
+
 let controller;
 let slideScene;
 let pageScene;
