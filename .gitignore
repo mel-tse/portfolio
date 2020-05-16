@@ -1,4 +1,3 @@
 # Local Netlify folder
 .netlify
-.gitignore
-.node_modules
+/node_modules
