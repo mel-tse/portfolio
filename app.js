@@ -140,3 +140,5 @@ window.addEventListener("mousemove", cursor);
 window.addEventListener("mouseover", activeCursor);
 
 animateSlides();
+
+console.log(revealText);
