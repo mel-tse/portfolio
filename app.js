@@ -69,7 +69,7 @@ function animateSlides() {
         //   indent: 200,
         // })
         //stays on the page for 100%, push followers get rid of huge gap
-        .setPin(slide, { pushFollowers: false })
+        .setPin(slide, { pushFollowers: true })
         .setTween(pageTl)
         .addTo(controller);
     });
