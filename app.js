@@ -92,6 +92,31 @@ function activeCursor(e) {
   } else {
     mouse.classList.remove("nav-active");
   }
+  if (item.classList.contains("about-exp")) {
+    mouse.classList.add("nav-active");
+  } else {
+    mouse.classList.remove("nav-active");
+  }
+  if (item.classList.contains("saffi-exp")) {
+    mouse.classList.add("saffi-active");
+  } else {
+    mouse.classList.remove("saffi-active");
+  }
+  if (item.classList.contains("chiltern-exp")) {
+    mouse.classList.add("chiltern-active");
+  } else {
+    mouse.classList.remove("chiltern-active");
+  }
+  if (item.classList.contains("james-exp")) {
+    mouse.classList.add("james-active");
+  } else {
+    mouse.classList.remove("james-active");
+  }
+  if (item.classList.contains("sgay-exp")) {
+    mouse.classList.add("sgay-active");
+  } else {
+    mouse.classList.remove("sgay-active");
+  }
 }
 
 function navToggle(e) {

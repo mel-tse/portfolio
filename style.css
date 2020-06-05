@@ -219,27 +219,27 @@ body {
 
 .cursor.nav-active {
   background: rgb(255, 139, 93);
-  transform: scale(3);
+  transform: scale(2);
 }
 
 .cursor.saffi-active {
   background: #3653bb;
-  transform: scale(3);
+  transform: scale(2);
 }
 
 .cursor.chiltern-active {
   background: #af3636;
-  transform: scale(3);
+  transform: scale(2);
 }
 
 .cursor.james-active {
   background: #429e9d;
-  transform: scale(3);
+  transform: scale(2);
 }
 
 .cursor.sgay-active {
   background: #bd8ba1;
-  transform: scale(3);
+  transform: scale(2);
 }
 
 .about-container {
