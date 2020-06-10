@@ -43,10 +43,18 @@ $yellow: #efa820;
   }
 }
 
+@mixin orangebullet {
+  color: $orange;
+  margin-left: 1rem;
+}
+
 @mixin p {
-  padding: 3rem 0rem;
+  padding: 2rem 0rem;
   font-size: 16px;
   color: #f6f6f6;
+  @include device1020{
+    padding: 3rem 0rem;
+  }
 }
 
 @mixin underline {
@@ -58,7 +66,6 @@ $yellow: #efa820;
 //button
 
 @mixin btn {
-  margin-top: 1rem;
   padding: 1rem;
   background: none;
   border: none;
@@ -68,6 +75,10 @@ $yellow: #efa820;
   text-decoration: none;
   align-self: flex-start;
   cursor: pointer;
+  margin-top: initial;
+  @include device1020{
+    margin-top: 1rem;
+  }
   a {
     text-decoration: none;
     color: white;

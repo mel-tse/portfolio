@@ -2,7 +2,7 @@ let controller;
 let slideScene;
 let pageScene;
 
-var x = window.matchMedia("(min-width: 768px)");
+var x = window.matchMedia("(min-width: 1024px)");
 
 function animateSlides() {
   if (x.matches) {

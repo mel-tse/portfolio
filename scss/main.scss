@@ -68,7 +68,7 @@ body {
 }
 
 .slide {
-  min-height: 100vh;
+  min-height: initial;
   margin: 0 auto 0 auto;
   width: 95%;
   display: flex;
@@ -80,6 +80,7 @@ body {
     width: 80%;
     justify-content: space-between;
     flex-direction: row;
+    min-height: 100vh;
   }
 }
 
@@ -87,10 +88,17 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  flex: 1;
-  flex-basis: 25rem;
-  padding-left: 5rem;
+  flex: initial;
+  flex-basis: initial;
+  padding-left: initial;
   position: relative;
+  margin: 2rem 0 2rem 0;
+  @include device1020 {
+    flex: 1;
+    flex-basis: 25rem;
+    padding-left: 5rem;
+    margin: initial;
+  }
 }
 
 .about {
@@ -142,6 +150,23 @@ body {
     flex-direction: row;
     justify-content: space-between;
   }
+  ul {
+    width: 100%;
+    @include device1020 {
+    width: 90%;
+    }
+    li {
+        color: $orange;
+        margin-left: 1rem;
+        margin-bottom: 0.5rem;
+    }
+    @include device1020 {
+      margin-left: initial;
+    }
+    span {
+      color: white;
+    }
+  }
   h3 {
     @include underline;
   }
@@ -154,6 +179,7 @@ body {
   }
   .button {
     width: fit-content;
+    margin-top: 2rem;
   }
   p {
     width: 100%;
@@ -165,7 +191,7 @@ body {
     @include prettyheading;
     font-size: 1rem;
     @include device1020 {
-      font-size: 3rem;
+      font-size: 2rem;
     }
   }
   &__img {
@@ -183,18 +209,6 @@ body {
   }  
   &__goals {
     order: 2;
-      ul {
-        li {
-            color: $orange;
-            margin-left: 1rem;
-        }
-        @include device1020 {
-          margin-left: initial;
-        }
-        span {
-          color: white;
-        }
-      }
     }
   &__process {
     order: 3;
@@ -225,9 +239,14 @@ body {
 
 .hero-img {
   position: relative;
-  flex: 1;
-  overflow: hidden;
-  flex-basis: 25rem;
+  flex: initial;
+  overflow: initial;
+  flex-basis: initial;
+  @include device1020 {
+    overflow: hidden;
+    flex-basis: 25rem;
+    flex: 2;
+  }
 }
 
 
@@ -273,34 +292,53 @@ body {
       align-self: center;
     }
     p {
-      @include p;
-      width: 40%;
-      align-self: center;
+        @include p;
+        width: 95%;
+        align-self: center;
+      @include device1020{
+        width: 40%;
+      }
     }
   }
   &__icons {
     display: flex;
     flex-direction: column;
+    width: 95%;
+    @include device1020 {
+      width: 80%;
+      align-self: center;
+    }
     .icons {
       display: flex;
       flex-wrap: wrap;
       align-self: center;
+      justify-content: center;
+      @include device1020 {
+        justify-content: initial;
+      }
+      img {
+        height: 35px;
+        @include device1020 {
+          height: initial;
+        }
+      }
     }
     .skillset {
       align-self: center;
     }
     span {
-      padding: 3rem;
+      padding: 1rem;
       text-align: center;
+      @include device1020 {
+        padding: 3rem;
+      }
     }
   }
 }
 
 
 .hero-desc p {
-  padding: 3rem 0rem;
-  font-size: 16px;
-  color: rgb(246, 246, 246);
+  @include p;
 }
 
 .explore {
