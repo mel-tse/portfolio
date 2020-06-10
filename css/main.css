@@ -1,0 +1,384 @@
+/* SASS Variables
+--------------------------------------------------------------- */
+/* Colours
+--------------------------------------------------------------- */
+/* Typography
+--------------------------------------------------------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background: #17181a;
+  font-family: "montserrat", "sans-serif";
+  overflow-x: hidden; }
+
+#logo {
+  color: white;
+  font-family: "abril fatface"; }
+
+.nav-header {
+  min-height: 10vh;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  width: 80%;
+  margin: auto;
+  padding: 2rem 0rem;
+  z-index: 2;
+  position: relative; }
+  .nav-header .nav {
+    display: none;
+    list-style: none; }
+    @media (min-width: 800px) {
+      .nav-header .nav {
+        display: flex; } }
+    .nav-header .nav li {
+      padding-left: 1rem;
+      padding-right: 1rem;
+      cursor: pointer; }
+    .nav-header .nav li:hover {
+      border-bottom: solid #ff8b5d;
+      padding-left: initial;
+      padding-right: initial;
+      margin-right: 1rem;
+      margin-left: 1rem; }
+
+@media (min-width: 800px) {
+  .burger {
+    display: none; } }
+
+.line1,
+.line2 {
+  width: 3rem;
+  height: 0.2rem;
+  margin: 0.4rem;
+  background: white;
+  pointer-events: none; }
+
+.slide {
+  min-height: 100vh;
+  margin: 0 auto 0 auto;
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #17181a;
+  color: white; }
+  @media (min-width: 1020px) {
+    .slide {
+      width: 80%;
+      justify-content: space-between;
+      flex-direction: row; } }
+
+.hero-desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+  flex-basis: 25rem;
+  padding-left: 5rem;
+  position: relative; }
+
+.about {
+  display: flex; }
+  .about__container {
+    margin: 0 auto 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #17181a;
+    color: white; }
+  .about__desc {
+    display: initial;
+    position: relative;
+    padding-left: initial; }
+    .about__desc h2 {
+      font-family: "abril fatface";
+      font-size: 3rem;
+      color: #f6f6f6; }
+      @media (min-width: 1020px) {
+        .about__desc h2 {
+          font-size: 4rem; } }
+    .about__desc p {
+      padding: 3rem 0rem;
+      font-size: 16px;
+      color: #f6f6f6; }
+    .about__desc h3 {
+      padding-top: 2rem; }
+  .about__hero-img img {
+    width: 50%;
+    float: left;
+    margin-right: 3rem;
+    margin-bottom: 3rem;
+    height: 100%;
+    object-fit: cover; }
+
+.brief {
+  margin: 0 auto 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  color: white;
+  width: 95%; }
+  @media (min-width: 1020px) {
+    .brief {
+      width: 80%;
+      flex-direction: row;
+      justify-content: space-between; } }
+  .brief h3 {
+    border-bottom: 3px solid #ff8b5d;
+    margin-bottom: 1rem;
+    width: 10px; }
+  .brief div {
+    width: 100%;
+    margin-bottom: 1rem; }
+    @media (min-width: 1020px) {
+      .brief div {
+        width: 50%; } }
+  .brief .button {
+    width: fit-content; }
+  .brief p {
+    width: 100%; }
+    @media (min-width: 1020px) {
+      .brief p {
+        width: 90%; } }
+  .brief__title {
+    font-family: "abril fatface";
+    font-size: 3rem;
+    color: #f6f6f6;
+    font-size: 1rem; }
+    @media (min-width: 1020px) {
+      .brief__title {
+        font-size: 4rem; } }
+    @media (min-width: 1020px) {
+      .brief__title {
+        font-size: 3rem; } }
+  .brief__img img {
+    width: 100%; }
+  @media (min-width: 1020px) {
+    .brief__img img {
+      width: 90%; } }
+  .brief__intro {
+    order: 1; }
+  .brief__goals {
+    order: 2; }
+    .brief__goals ul li {
+      color: #ff8b5d;
+      margin-left: 1rem; }
+    @media (min-width: 1020px) {
+      .brief__goals ul {
+        margin-left: initial; } }
+    .brief__goals ul span {
+      color: white; }
+  .brief__process {
+    order: 3; }
+  .brief__data {
+    order: 4; }
+  .brief__personas {
+    order: 5; }
+  .brief__sitemap {
+    order: 6; }
+  .brief__wireframe {
+    order: 7; }
+  .brief__styleguide {
+    order: 8; }
+  .brief__mockup {
+    order: 9; }
+  .brief__coding {
+    order: 10; }
+
+.hero-img {
+  position: relative;
+  flex: 1;
+  overflow: hidden;
+  flex-basis: 25rem; }
+
+.hero-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; }
+
+.about-span {
+  color: #ff8b5d; }
+
+.saffi-span {
+  color: #3653bb; }
+
+.chiltern-span {
+  color: #af3636; }
+
+.stephen-span {
+  color: #bd8ba1; }
+
+.james-span {
+  color: #429e9d; }
+
+.hero-desc h2 {
+  font-family: "abril fatface";
+  font-size: 3rem;
+  color: #f6f6f6; }
+  @media (min-width: 1020px) {
+    .hero-desc h2 {
+      font-size: 4rem; } }
+
+.portfolio {
+  color: white; }
+  .portfolio__title {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center; }
+    .portfolio__title h2 {
+      font-family: "abril fatface";
+      font-size: 3rem;
+      color: #f6f6f6;
+      align-self: center; }
+      @media (min-width: 1020px) {
+        .portfolio__title h2 {
+          font-size: 4rem; } }
+    .portfolio__title p {
+      padding: 3rem 0rem;
+      font-size: 16px;
+      color: #f6f6f6;
+      width: 40%;
+      align-self: center; }
+  .portfolio__icons {
+    display: flex;
+    flex-direction: column; }
+    .portfolio__icons .icons {
+      display: flex;
+      flex-wrap: wrap;
+      align-self: center; }
+    .portfolio__icons .skillset {
+      align-self: center; }
+    .portfolio__icons span {
+      padding: 3rem;
+      text-align: center; }
+
+.hero-desc p {
+  padding: 3rem 0rem;
+  font-size: 16px;
+  color: #f6f6f6; }
+
+.explore {
+  margin-top: 1rem;
+  padding: 1rem;
+  background: none;
+  border: none;
+  color: white;
+  border: 1px solid white;
+  font-size: 1rem;
+  text-decoration: none;
+  align-self: flex-start;
+  cursor: pointer; }
+  .explore a {
+    text-decoration: none;
+    color: white; }
+  .explore a {
+    position: relative;
+    z-index: 3; }
+
+.button {
+  margin-top: 1rem;
+  padding: 1rem;
+  background: none;
+  border: none;
+  color: white;
+  border: 1px solid white;
+  font-size: 1rem;
+  text-decoration: none;
+  align-self: flex-start;
+  cursor: pointer;
+  width: fit-content; }
+  .button a {
+    text-decoration: none;
+    color: white; }
+
+.nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: white;
+  z-index: 1;
+  opacity: 1;
+  clip-path: circle(50px at 100% -10%);
+  -webkit-clip-path: circle(50px at 100% -10%); }
+
+.burger {
+  cursor: pointer; }
+
+.nav-links {
+  font-size: 3rem;
+  flex-basis: 50%; }
+
+.nav-links h3 {
+  padding: 3rem 0rem; }
+
+.nav-links a {
+  color: black;
+  text-decoration: none; }
+
+.contact {
+  flex-basis: 50%; }
+
+.contact a {
+  text-decoration: none;
+  color: black;
+  font-weight: bolder; }
+
+.contact h2 {
+  font-size: 4rem;
+  padding: 2rem 0rem; }
+
+.contact p {
+  font-size: 1.5rem;
+  line-height: 2rem; }
+
+.reveal-img,
+.reveal-text {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #17181a;
+  top: 0;
+  left: 0; }
+
+.cursor {
+  width: 3rem;
+  height: 3rem;
+  border: 2px solid white;
+  border-radius: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  transform-origin: 75% 75%; }
+
+.active {
+  color: blue; }
+
+.cursor.nav-active {
+  background: #ff8b5d;
+  transform: scale(2); }
+
+.cursor.saffi-active {
+  background: #3653bb;
+  transform: scale(2); }
+
+.cursor.chiltern-active {
+  background: #af3636;
+  transform: scale(2); }
+
+.cursor.james-active {
+  background: #429e9d;
+  transform: scale(2); }
+
+.cursor.sgay-active {
+  background: #bd8ba1;
+  transform: scale(2); }
