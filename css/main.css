@@ -348,7 +348,12 @@ body {
   height: 100%;
   background: #17181a;
   top: 0;
-  left: 0; }
+  left: 0;
+  display: none; }
+  @media (min-width: 1020px) {
+    .reveal-img,
+    .reveal-text {
+      display: block; } }
 
 .cursor {
   width: 3rem;

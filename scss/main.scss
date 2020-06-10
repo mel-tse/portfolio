@@ -377,6 +377,10 @@ body {
   background: #17181a;
   top: 0;
   left: 0;
+  display: none;
+  @include device1020 {
+    display: block;
+  }
 }
 
 .cursor {
