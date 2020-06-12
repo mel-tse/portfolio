@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/mel-tse/portfolio#readme",
   "dependencies": {
+    "lightbox2": "^2.11.1",
     "netlify-cli": "^2.53.0",
     "node-sass": "^4.14.1"
   }

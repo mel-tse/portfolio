@@ -41,6 +41,10 @@ $yellow: #efa820;
   @include device1020{
     font-size: 4rem;
   }
+  a {
+    text-decoration: none;
+    color: white;
+  }
 }
 
 @mixin orangebullet {
@@ -58,9 +62,7 @@ $yellow: #efa820;
 }
 
 @mixin underline {
-  border-bottom: 3px solid $orange;
   margin-bottom: 1rem;
-  width: 10px;
 }
 
 //button

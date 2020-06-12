@@ -7,6 +7,7 @@
     <title>Melody Tse</title>
     <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Montserrat&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../node_modules/lightbox2/dist/css/lightbox.css">
 </head>
 
 <body data-barba="wrapper">
@@ -28,7 +29,7 @@
             </div>
             <div class="brief__title">
                 <h2>
-                    Encouraging the user to book tyre fittings online
+                    Encouraging users to book tyre fittings online
                 </h2>
             </div>
             <div class="brief__intro">
@@ -42,9 +43,8 @@
             </div>
             <div class="brief__process">
                 <h3>Problem</h3>
-                <p>From looking at scroll map data from our agency sites. It's clear users don't want to spend too
-                    long
-                    on the website, they often close the site down if the process is too long or complex.<br>
+                <p>From looking at scroll map data from our Tyre Sector Research. It was clear users didn’t want to
+                    spend too long on the website, they often bounced, if the process was too long or complex.<br>
                     <br>
                 <ul>
                     <li><span>I used mouseflow to see where visitors are clicking on one of our sites,
@@ -54,14 +54,13 @@
                     <li><span>I
                             designed a step by step process with images, this made the page scroll down to the search
                             feature.</span></li>
-                    <li><span> I
-                            also implement a componenet that allows the user to enter their reg or tyre size. This
-                            initiates a
-                            widget so they can buy their tyres online, this will hold them to their appointment as
-                            they've already brought the tyres.</span></li>
+                    <li><span> I also implemented a component that allows the user to enter their registration or tyre
+                            size. This initiates a widget so they can buy their tyres online, this will let them book
+                            their appointment if they've already brought the tyres.</span></li>
                 </ul>
                 <div class="button">
-                    <a href="../images/chiltern-reg.png" target="_blank">Componenet designs</a>
+                    <a href="../images/chiltern-reg.png" data-lightbox="image-1"
+                        data-title="Component designs">Component designs</a>
                 </div>
             </div>
             <!-- <div class="brief__personas">
@@ -84,7 +83,7 @@
                 </div>
             </div> -->
             <div class="brief__data">
-                <h3>Research</h3>
+                <h3>Findings</h3>
                 <ul>
                     <li><span>58% searches from mobile phones.</span></li>
                     <li><span>33% searches from desktop.</span></li>
@@ -99,8 +98,8 @@
             <div class="brief__sitemap">
                 <h3>Sitemap</h3>
                 <p>
-                    From analysing competitor's websites and a phone conversation with the client, I was able to draw up
-                    a sitemap.
+                    Following the user, market and competitor research, I conducted a phone interview with the client to
+                    solidify the information architecture on the site.
                 </p>
                 <!-- <br> -->
                 <!-- <ul>
@@ -108,7 +107,7 @@
                     <li><span>Contact us.</span></li>
                 </ul> -->
                 <div class="button">
-                    <a href="../images/chiltern-slickplan.png" target="_blank">Sitemap</a>
+                    <a href="../images/chiltern-slickplan.png" data-lightbox="image-2" data-title="Sitemap">Sitemap</a>
                 </div>
             </div>
             <!-- <div class="brief__wireframe">
@@ -141,7 +140,8 @@
                 <h3>Style guide</h3>
                 <p>Below is a link where I have created key design assets.</p>
                 <div class="button">
-                    <a href="../images/chiltern-style.png" target="_blank">Style guide</a>
+                    <a href="../images/chiltern-style.png" data-lightbox="image-3" data-title="Style guide">Style
+                        guide</a>
                 </div>
             </div>
             <!-- <div class="brief__mockup">
@@ -175,7 +175,7 @@
         </div>
         <div class="next">
             <a href="../casestudies/saffi.html"><span>&#8592;</span>Saffi Boutique</a>
-            <a href="../casestudies/chiltern.html">Chiltern Tyres <span>&#8594;</span></a>
+            <a href="../casestudies/jamesmartinblinds.html">James Martin Blinds <span>&#8594;</span></a>
         </div>
     </main>
     <nav class="nav-bar">
@@ -203,6 +203,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"
         integrity="sha256-3arngJBQR3FTyeRtL3muAGFaGcL8iHsubYOqq48mBLw=" crossorigin="anonymous"></script>
     <script src="../lazysizes.min.js"></script>
+    <script src="../node_modules/lightbox2/dist/js/lightbox-plus-jquery.js"></script>
     <script src="../app.js"></script>
 </body>
 
