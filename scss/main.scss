@@ -40,6 +40,10 @@ body {
       padding-left: 1rem;
       padding-right: 1rem;
       cursor: pointer;
+      a {
+        color: white;
+        text-decoration: none;
+      }
     }
     li:hover {
       border-bottom: solid $orange;

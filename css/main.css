@@ -40,6 +40,9 @@ body {
       padding-left: 1rem;
       padding-right: 1rem;
       cursor: pointer; }
+      .nav-header .nav li a {
+        color: white;
+        text-decoration: none; }
     .nav-header .nav li:hover {
       border-bottom: solid #ff8b5d;
       padding-left: initial;
