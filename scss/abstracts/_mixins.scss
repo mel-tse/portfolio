@@ -55,6 +55,7 @@ $yellow: #efa820;
 @mixin p {
   padding: 2rem 0rem;
   font-size: 16px;
+  line-height: 1.5rem;
   color: #f6f6f6;
   @include device1020{
     padding: 3rem 0rem;

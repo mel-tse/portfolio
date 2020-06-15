@@ -18,6 +18,11 @@ body {
   font-family: "abril fatface";
 }
 
+p,
+li {
+  line-height: 1.5rem;
+}
+
 .nav-header {
   min-height: 10vh;
   font-size: 1rem;
@@ -208,35 +213,47 @@ body {
       }
     }
   }
-  &__intro {
+  &__title {
     order: 1;
+    @include device1020 {
+      align-self: center;
+      h2 {
+        margin-right: 1rem;
+      }
+    }
+  }
+  &__img {
+    order: 2;
+  }
+  &__intro {
+    order: 3;
   }  
   &__goals {
-    order: 2;
+    order: 4;
     }
   &__process {
-    order: 3;
-  }
-  &__data {
-    order: 4;
-  }
-  &__personas {
     order: 5;
   }
-  &__sitemap {
+  &__data {
     order: 6;
   }
-  &__wireframe {
+  &__personas {
     order: 7;
   }
-  &__styleguide {
+  &__sitemap {
     order: 8;
   }
-  &__mockup {
+  &__wireframe {
     order: 9;
   }
-  &__coding {
+  &__styleguide {
     order: 10;
+  }
+  &__mockup {
+    order: 11;
+  }
+  &__coding {
+    order: 12;
   }
   }
 
