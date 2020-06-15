@@ -477,3 +477,6 @@ body {
   width: 100%;
   height: 400px;
   background-color: red; }
+
+.small {
+  height: 100px; }
