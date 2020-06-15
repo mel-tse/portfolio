@@ -221,6 +221,14 @@ li {
         margin-right: 1rem;
       }
     }
+    &.row {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      @include device1020 {
+        justify-content: initial;
+      }
+    }
   }
   &__img {
     order: 2;
@@ -511,4 +519,5 @@ li {
 
 .small {
   height: 100px;
+  margin-left: 1rem;
 }

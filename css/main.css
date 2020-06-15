@@ -208,6 +208,13 @@ li {
         align-self: center; }
         .brief__title h2 {
           margin-right: 1rem; } }
+    .brief__title.row {
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+      @media (min-width: 1020px) {
+        .brief__title.row {
+          justify-content: initial; } }
   .brief__img {
     order: 2; }
   .brief__intro {
@@ -495,4 +502,5 @@ li {
   background-color: red; }
 
 .small {
-  height: 100px; }
+  height: 100px;
+  margin-left: 1rem; }
